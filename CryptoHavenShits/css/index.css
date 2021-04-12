@@ -42,6 +42,54 @@ img{
     }
 }
 
+.CryptohavenBlockchain {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  
+    font-weight: bold;
+    font-size: 6vh;
+    position: relative;
+    top:50vh;
+    left:30vh;
+    text-align: left;
+    
+}
+
+@media(max-width:480px){
+    .CryptohavenBlockchain {
+        font-family: Century Gothic;
+        font-weight: bold;
+        font-size: 1.4vh;
+        position: relative;
+        top:17vh;
+        left:10vh;
+        text-align: left;
+       
+    }
+}
+
+.Definition{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4vh;
+    position: relative;
+    top:50vh;
+    left:30vh;
+    text-align: left;
+  
+}
+
+@media(max-width:480px){
+    .Definition{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.4vh;
+        position: relative;
+        top:15vh;
+        left:10vh;
+        text-align: left;
+        font-weight: lighter;
+    }
+}
+
 .navbar-nav {
     margin-left: auto;
     padding-right:5rem;
@@ -103,6 +151,12 @@ img{
 /* Cryptohaven */
 #haven{
     padding-right: 0vh;
+   
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
     
     
@@ -224,10 +278,9 @@ img{
         color:white;
         position: relative;
         top:6vh;
-        font-size: 2.5vh;
-        padding-bottom: 0vh;
         padding-left: 0vh;
-        text-align: left;
+        font-size: 2.5vh;
+        
     }
 }
 
@@ -249,7 +302,7 @@ img{
     font-family: Century Gothic;
     font-size: 3vh;
     top: 5vh;
-    text-align: justify;
+    
 } 
 
 @media(max-width:768px){
@@ -258,9 +311,8 @@ img{
         font-family: Century Gothic;
         font-size: 2.2vh;
         top: 6vh;
-        padding-left: 0vh;
-        padding-right: 5vh;
-        text-align: left;
+       
+        
     }
 }
 
@@ -287,6 +339,11 @@ img{
     top:4.5vh;
     right:1vh;
     padding-right: 2vh;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 
 }
 
@@ -316,7 +373,7 @@ img{
         padding-left: 0vh;
         margin-left: 0vh;
         margin-bottom: 20vh;
-        text-align: justify;
+        
     }
 }
 
@@ -338,6 +395,11 @@ img{
     top:0vh;
     right:1vh;
     padding-right: 2vh;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 @media(max-width:480px){
@@ -367,7 +429,7 @@ img{
     font-size: 3vh;
     padding-right: 1vh;
     top: 5vh;
-    text-align: justify;
+    
 
 }
 
@@ -381,6 +443,11 @@ img{
     height: 30vh;
     width: auto;
     margin-bottom: 20vh;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 @media(max-width:480px){
@@ -411,7 +478,7 @@ img{
         padding-right: 5vh;
         margin-left: 0vh;
         margin-bottom:-5vh;
-        text-align: justify;
+        
     }
 }
 
@@ -430,7 +497,7 @@ img{
         font-family: Century Gothic;
         font-size: 3vh;
         top: 5vh;
-        text-align: justify;
+       
         
     }
 }
@@ -441,6 +508,11 @@ img{
     top:4vh;
     left:20vh;
     padding-right: 5vh;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 @media(max-width:480px){
@@ -469,9 +541,9 @@ img{
     .Eth{
         position: relative;
         top:15vh;
+        left: 0.5vh;
         color: black;
-        padding-left: 10vh;
-        
+        padding-right: 5vh;
         margin-right: 0vh;
         margin-bottom: 10vh;
         
@@ -484,7 +556,7 @@ img{
     font-family: Century Gothic;
     font-size: 3vh;
     top: 5vh;
-
+    padding-left: 0vh;
 }
 
 @media(max-width:480px){
@@ -493,13 +565,9 @@ img{
         font-family: Century Gothic;
         font-size: 3vh;
         top: 5vh;
-        text-align: justify;
-        
+        margin-right: 0;
     }
 }
-
-
-
 
 .row{
     background-repeat: no-repeat;
@@ -512,6 +580,11 @@ img{
     top:15vh;
     padding-left:18vh;
     padding-right: 0;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 @media(max-width:480px){
@@ -553,9 +626,30 @@ img{
     font-family: Century Gothic;
     font-size: 3vh;
     top: 10vh;
-    text-align: justify;
+    
 }
 
+
+
+@media(max-width:480px){
+    footer{
+        padding-left: 1vh;
+        text-align: left;
+    }
+}
+
+
+.footers{
+    
+    text-align: center;
+}
+
+@media(max-width:480px){
+    .footers{
+        
+        text-align: left;
+    }
+}
 
 
 
